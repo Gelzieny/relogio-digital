@@ -1,0 +1,38 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+body {
+  font-family: "Roboto", serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background: #282c34;
+  color: #fff;
+}
+
+.clock {
+  font-size: 9rem;
+  font-weight: bold;
+  background: #444;
+  padding: 20px 40px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+ h2 {
+  margin-top: 20px;
+  font-size: 1.5rem;
+  color: #050505;
+}
+
+#name {
+  color: #ec13e5;
+  font-weight: bold;
+}
